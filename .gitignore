@@ -1,0 +1,21 @@
+# Official checkout is fetched at the pinned commit by scripts/prepare_source.py.
+/code/
+/runs/
+/data/
+/conda_env/
+/weights/
+/outputs/
+/logs/
+/evidence/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.venv/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.sens
+.vscode/
